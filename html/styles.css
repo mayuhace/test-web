@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 0.5rem;
+}
+
+.button {
+    background-color: #0ff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #0b5394;
+}
+
+section {
+    padding: 2rem;
+    background-color: rgba(0, 206, 209);
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    max-width: 30%;
+    height: auto;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #a4c2f4;
+    color: #fff;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #cccccc;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(255, 0, 0, 0.0);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
